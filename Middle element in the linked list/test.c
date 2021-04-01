@@ -19,7 +19,6 @@ void printMiddle(struct Node *head)
         printf("%d", slow_ptr->data);
     }
 }
-
 void push(struct Node** head_ref, int new_data)
 {
     struct Node* new_node =
