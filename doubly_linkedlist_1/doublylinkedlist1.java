@@ -57,6 +57,7 @@ public class LinkedList
             int input = myInput.nextInt();
             list.push(input);
         }
+        list.reverse();
         System.out.println("Original linked list");
         list.printList(head);
         list.reverse();
