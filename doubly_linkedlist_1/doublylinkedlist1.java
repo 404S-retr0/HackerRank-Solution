@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class LinkedList 
+public class LinkedList 
 {
     static Node head;
     static class Node 
