@@ -81,7 +81,7 @@ void preorder(struct btnode *t)
     if (t->r != NULL)    
         preorder(t->r);
 }
-void postorder(struct btnode *t)
+/*void postorder(struct btnode *t)
 {
     if (root == NULL)
     {
@@ -93,4 +93,4 @@ void postorder(struct btnode *t)
     if (t->r != NULL) 
         postorder(t->r);
     printf("%d ", t->value);
-}
+}*/
